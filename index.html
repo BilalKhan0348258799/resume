@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Sidebar for Personal Information -->
+    <aside class="sidebar">
+      <img src="./images/profile pic.jpeg" alt="Profile Picture" class="profile-picture">
+      <h1>Muhammad Bilal Fareed</h1>
+      <p class="contact-info">muhammadbilalfareed94@gmail.com | +923171232496</p>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+      <!-- Professional Summary Section -->
+      <section class="section" id="professional-summary">
+        <h2>Professional Summary</h2>
+        <p>Final-year Computer Science student with experience as a teacher and computer operator. Skilled in software development, project management, and educational technology.</p>
+      </section>
+
+      <!-- Education Section -->
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Science in Computer Science, Federal urdu University</p>
+        <p>HSC in Pre-engineering, Govt Degree college</p>
+        <p>SSC in Computer Science, Metropolitan Academy</p>
+      </section>
+
+      <!-- Skills Section with toggle button -->
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML & CSS</li>
+          <li>Graphic Designing</li>
+          <li>Ms Office</li>
+        </ul>
+        <button id="toggle-skills">Hide Skills</button> <!-- Button to hide skills -->
+      </section>
+      
+      <!-- Add another button to show skills once hidden -->
+      <button id="show-skills" style="display: none;">Show Skills</button> <!-- Hidden by default -->
+      
+
+      <!-- Work Experience Section -->
+      <section class="section" id="work-experience">
+        <h2>Work Experience</h2>
+        <p>Teacher at Oxford Grammar School </p>
+        <p>computer operator at COVID vaccination center </p>
+        <p>Teacher and computer operator at Penta Model School </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>E-commerce (Final-year project)</strong>
+            <ul>
+              <li>Developed a full-fledged e-commerce platform with key features like inventory management, user authentication, and payment processing.</li>
+            </ul>
+          </li>
+          <li><strong>Perfume Brand Design Project</strong>
+            <ul>
+              <li>Created brand logo and concepts for a new perfume line, using design tools like Inkscape.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Technical Skills Section -->
+      <section class="section" id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Programming Languages: JavaScript, TypeScript, Python</li>
+          <li>Web Development: HTML, CSS, React, Angular</li>
+          <li>Database Management: MySQL, MongoDB</li>
+          <li>Tools: Git, Inkscape, Figma</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <!-- JavaScript for interactivity -->
+  <script src="app.js"></script>
+</body>
+</html>
